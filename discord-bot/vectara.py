@@ -135,17 +135,17 @@ if __name__ == "__main__":
     vectara = Vectara(vectara_key, customer_id, int(corpus_id))
     
     # Either feed it file=filename or file_text="text" 
-    print(vectara.file_upload(file_text='''Networking helps me in the following ways.
-                            - people are more likely to reach out to me for help since they already know me and feel comfortable doing it
-                            - I feel more comfortable reaching out to people for help because I’ve spoken to them already
-                            - it helps me recognize patterns of problems teams/people are dealing with, and I can come up with common solutions that have impact across teams
-                            - in general it opens up my mind to new perspectives
-                            How I keep on top of it:
-                            - I have a target for myself that I will reach out to two people every week to just say hello and introduce myself if we’re meeting for the first tins
-                            How I find the people to network with
-                            - I always make note of people names when they’re mentioned during conversations. The more conversations I have, the more names I add to my list!
-                              ''', 
-                              link="https://linkedin.com"))
+    # print(vectara.file_upload(file_text='''Networking helps me in the following ways.
+    #                         - people are more likely to reach out to me for help since they already know me and feel comfortable doing it
+    #                         - I feel more comfortable reaching out to people for help because I’ve spoken to them already
+    #                         - it helps me recognize patterns of problems teams/people are dealing with, and I can come up with common solutions that have impact across teams
+    #                         - in general it opens up my mind to new perspectives
+    #                         How I keep on top of it:
+    #                         - I have a target for myself that I will reach out to two people every week to just say hello and introduce myself if we’re meeting for the first tins
+    #                         How I find the people to network with
+    #                         - I always make note of people names when they’re mentioned during conversations. The more conversations I have, the more names I add to my list!
+    #                           ''', 
+    #                           link="https://linkedin.com"))
     
     # convo = vectara.ask_question(input("Enter your message: "))
     # while convo is not None:
